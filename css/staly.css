@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-color: black;
+}
+
+.own{
+    background-color: black;
+    height: 713px;
+    background: url(../img/web.png) no-repeat;
+    background-size: cover;
+  ;
+    
+}
+
+.own .hed   { 
+font-size: large;
+text-decoration: none;
+color: black;
+height:  40px;
+padding-left: 30px;
+padding-right: 30px;
+position: sticky;
+
+}
+
+.own .hed ul{
+    padding: 10px;
+    display: flex;
+    font-family: system-ui;
+    color: rgb(255, 255, 255);
+    direction: rtl;
+    float: right;
+}
+
+
+.own .hed ul li{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: 0.5s;
+    margin-right: 40px; 
+}
+.own .hed ul li:hover{
+    color: #007042;
+    background-color: aliceblue;
+    border-radius: 40px;
+    transition: 1s;
+    font-size: larger;
+}
+.own .hed a{
+    text-decoration: none;
+    color: black;
+}
+
+.own .hed img{
+    width: 90px;
+    background-color: aliceblue;
+    border-radius: 150%;
+}
+
+.own .hed img:hover{
+    animation-name: logo;
+    animation-duration: 1s;
+    
+}
+@keyframes logo{
+    100%{
+        transform:rotatez(350deg);
+
+
+    }
+}
+
+
+
+.own h2{
+    margin-top: 250px;
+        margin-left: 120px;
+        font-size:300%;
+        color: aliceblue;
+        font-family: fantasy; 
+}
+.own h2 span{
+    border-radius: 30px;
+    padding: 1px;
+    color: aliceblue;
+    background-color: #007042;
+
+
+}
+
+.own h2 span:hover{
+    text-shadow: 5px 5px 5px black;
+    transition: 1s;
+    color: #007042;
+    background-color: aliceblue;
+
+    
+}
+.own hr{
+    margin-left: 110px;
+    color:white;
+}
+
+ #bt{
+    position: relative;
+    left: 100px;
+    font-size: x-large;
+    padding: 5px;
+    border-radius: 30px;
+    background-color:#007042 ;
+    color: aliceblue;
+    font-family: fantasy;
+    transition: 1s;
+}
+
+#bt:hover{
+  text-shadow: 5px 5px 5px black;
+  border: white 2px solid;
+  transition: 1s;
+  transform: translateX(50px);
+}
+ 
+.own .imgs img{
+    width: 120px;
+    height: 150px;
+    font-size: smaller;
+    padding-bottom: 5px;
+}
+.own .imgs {
+    background-color: blue;
+    width: 0px;
+    float: right;
+    position: relative;
+    right: 10%;
+    bottom: 390px;
+    
+}
+.own .imgs img:hover{
+    transform: translatex(-60px);
+    transition: 1s;
+    
+}
+
+#cofe6{
+    position: relative;
+    bottom: 350px;
+    float: right;
+    right: 120px;
+    animation-name: cofe6;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+
+}
+@keyframes cofe6{
+    0%{
+        transform:rotatez(-20deg);
+
+    }
+    100%{
+        transform:rotatez(20deg);
+
+
+    }
+}
+.tow{background-color: black;
+}
+.tow{
+  position: relative;
+  height: auto;
+}
+
+.tow .text1{
+    color: aliceblue;
+    float: right;
+    position: relative;
+    left: 300px;
+    top: 150px;
+    font-family: cursive;
+    
+}
+.tow .text1 h1{
+    font-size:300%;
+    text-align: center;
+}
+.tow .text1 p{
+    text-align: center;
+}
+
+.tow #main{
+    width: 900px;
+    position: relative;
+    bottom: 400px;
+}
+
+.tow .text1:hover{
+ color: #007042;
+ font-weight: bolder;
+ transition: 1s;
+}
+
+#ico{
+    color: aliceblue;
+    font-size:500%;
+    position: relative;
+    bottom: 20px;
+    right: 150px;
+}
+#ico:hover{
+    color: #007042;
+    animation-name: logo;
+    animation-duration: 1s;
+}
+
+#ico2{
+    color: aliceblue;
+    
+    position: relative;
+    bottom: 450px;
+   text-align: center;
+   margin-left: 70px;
+    font-family: monospace;
+    font-style: oblique;
+   
+
+}
+.manu{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    position: relative;
+    bottom: 400px;
+    margin-left: 220px;
+ 
+    width: 1100px;
+}
+.manu .m{
+      padding: 10px;
+    
+}
+.manu .m #i{
+    margin-bottom: 15px;
+    font-size:300% ;
+}
+.manu .m p{
+    text-align:center;
+    color: rgba(240, 248, 255, 0.705);
+}
+
+.drink{
+    bottom: 190px;
+    flex-wrap:nowrap;
+    text-align: center;
+    background-color: blue;
+    left: 100px;
+    position: relative;
+    display: flex;
+    width: 0;
+    
+
+}
+.drink #d{
+    position: relative;
+    margin-right: 150px;
+    text-align: center;
+  
+    position: relative; 
+    border-radius: 100%;
+    color: rgba(240, 248, 255, 0);
+    font-size: smaller;
+}
+.drink #d:hover{
+
+    text-align: center;
+    background-color: #007042;
+    width: 600px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: large;
+    transition: 1s;
+}
+.drink #d img{
+    border-radius: 100%;
+    padding: 10px;
+    width: 200px;
+    background-color: #007042;
+}
+#asd{
+    width: 800px;
+    position: relative;
+    bottom: 300px;
+    left: 350px;
+   
+
+}
+
+
+.team .t img{
+    border-radius: 100%;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: #007042;
+
+}
+
+.team{
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.team .t{
+    margin: 100px;
+    position: relative;
+    bottom: 450px;
+    left: 50px;
+    flex-wrap:inherit ;
+
+}
+.team .t h3{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.505);
+}
+.forms{
+  height: 300px;
+}
+.forms img{
+    width: 800px;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+}
+
+.forms .ff{
+  height: 650px;
+  font-size: xx-large;
+  background-color: #0070418c;
+  float: right;
+  width: 450px;
+position: relative;
+right: 150px;
+padding: 20px;
+border-radius: 50px;
+bottom: 390px;
+color: rgba(240, 248, 255, 0.507);
+
+}
+
+
+.forms .ff input{
+  border-radius: 50px;
+  padding: 5px;
+  margin-bottom: 10px;
+
+}
+.forms .ff button{
+  padding: 5px;
+  border-radius: 50px;
+
+
+}
+
+.forms .ff button:hover{
+  transition: 1s;
+  color: aliceblue;
+  background-color: #007042;
+}
+
+.forms .ff a{
+  top: 80px;
+  float: left;
+  font-size: 50%;
+  position: relative;
+  color:aliceblue;
+
+}
+.forms .ff a:hover{
+  color:antiquewhite;
+}
+#for{
+  font-size: 400%;
+  position: relative;
+  bottom: 20px;
+  left: 150px;
+
+}
+
+.forms .ff label{
+
+  float: left;
+}
+
+#for:hover{
+ color: black;
+  animation-name: logo;
+animation-duration: 1s;
+
+}
+
+
+
+.sc3{
+  height: 100px;
+background-color: #00704185;  margin-left: 150px;
+  margin-right: 150px;
+ 
+  position: relative;
+ 
+
+  
+
+}
+
+.sc3 .foter {
+float: right;
+
+display: flex;
+
+
+}
+
+.sc3 .foter #i{
+  border: 1px solid white;
+  right: 50px;
+  bottom: 20px;
+  width: 80px;
+  height: 50px;
+  border-radius: 30%;
+  text-align: center;
+  position: relative;
+  margin-right: 10px;
+  background-color: #211b1b;
+}
+.sc3 p{
+  position: relative;
+  top: 40px;
+  margin-left: 20%;
+  font-size: larger;
+  color: aliceblue;
+}
+
+.sc3 .foter #i:hover{
+  background-color: beige;
+
+}
+.sc3 .foter a{
+  text-decoration: none;
+  color:black;
+}
+.sc3 .foter .ins a:hover{
+  color:#fd5341;
+}
+.sc3 .foter .fec a:hover{
+  color: #1877f2;
+}
+
+.sc3 .foter .you a:hover{
+  color: red;
+}
+.sc3 .foter .twt a:hover{
+  color: rgb(24, 86, 221);
+}
+
+#end{
+  position: relative;
+  color:#007042;
+  bottom: 400px;
+  text-align: center;
+  margin-left: 250px;
+  font-size: 650%;
+  font-style: italic;
+  font-family: cursive;
+  animation-name:end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+@keyframes end
+{
+  from{
+    opacity: 1;
+    transform: translatey(10px);
+    transform: translateZ(100px);
+    transform: translateX(-30px);
+  }
+  to{
+    opacity: 0.1;
+    transform: translatey(-100px);
+
+
+
+  }
+  
+}
